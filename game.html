@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Échecs : ouvertures</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@chrisoakman/chessboard2@0.5.0/dist/chessboard2.min.css"
+      integrity="sha384-47VeTDpmy4yT21gKPXQcLQYQZwlmz27gEH5NTrOmTk3G/SGvMyltclOW/Q8uE+sL"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <h1></h1>
+      <nav>
+        <a href="./">🏠 Retour</a>
+      </nav>
+    </header>
+    <main>
+      <div id="chessBoard"></div>
+      <div class="buttons">
+        <button class="back" disabled>coup précédent</button>
+        <button class="next">coup suivant</button>
+      </div>
+      <div class="state">
+        <p>Coups : <span class="moves"></span></p>
+      </div>
+    </main>
+    <script
+      src="https://unpkg.com/@chrisoakman/chessboard2@0.5.0/dist/chessboard2.min.js"
+      integrity="sha384-/KwQCjA1GWovZNV3QDVtvSMDzO4reGgarF/RqHipr7hIUElH3r5zNl9WEPPOBRIF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./games.js"></script>
+    <script src="./script-game.js"></script>
+  </body>
+</html>

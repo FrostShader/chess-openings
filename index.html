@@ -2,36 +2,18 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Chess openings</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@chrisoakman/chessboard2@0.5.0/dist/chessboard2.min.css"
-      integrity="sha384-47VeTDpmy4yT21gKPXQcLQYQZwlmz27gEH5NTrOmTk3G/SGvMyltclOW/Q8uE+sL"
-      crossorigin="anonymous"
-    />
+    <title>Échecs : ouvertures</title>
     <link rel="stylesheet" type="text/css" href="./styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <header>
-      <h1>Échecs</h1>
+      <h1>Échecs : ouvertures</h1>
     </header>
     <main>
-      <div id="chessBoard"></div>
-      <div class="buttons">
-        <button class="back" disabled>coup précédent</button>
-        <button class="next">coup suivant</button>
-      </div>
-      <div class="state">
-        <p>Coups : <span class="moves"></span></p>
-      </div>
+      <ol class="list"></ol>
     </main>
-
-    <script
-      src="https://unpkg.com/@chrisoakman/chessboard2@0.5.0/dist/chessboard2.min.js"
-      integrity="sha384-/KwQCjA1GWovZNV3QDVtvSMDzO4reGgarF/RqHipr7hIUElH3r5zNl9WEPPOBRIF"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./script.js"></script>
+    <script src="./games.js"></script>
+    <script src="./script-index.js"></script>
   </body>
 </html>

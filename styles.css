@@ -5,3 +5,21 @@
 .buttons {
   margin: 0.5em 0;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  margin: 1em;
+}
+
+nav a {
+  border: 3px solid darkblue;
+  background: lightskyblue;
+  padding: 0.25em;
+}
+nav a:hover {
+  color: white;
+  background: darkblue;
+}
