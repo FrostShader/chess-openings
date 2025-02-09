@@ -14,8 +14,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <h1>Échecs</h1>
-    <div id="chessBoard" style="width: 400px"></div>
+    <header>
+      <h1>Échecs</h1>
+    </header>
+    <main>
+      <div id="chessBoard"></div>
+      <div class="buttons">
+        <button class="back" disabled>coup précédent</button>
+        <button class="next">coup suivant</button>
+      </div>
+      <div class="state">
+        <p>Coups : <span class="moves"></span></p>
+      </div>
+    </main>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
